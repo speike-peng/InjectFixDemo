@@ -21,7 +21,7 @@ public class DebugHelper
     /// <summary>
     /// 打印日志，只在ENABLE_LOG宏下作用，一般用于开发时使用
     /// </summary>
-    [Conditional("ENABLE_LOG")]
+    //[Conditional("ENABLE_LOG")]
     public static void Log(string message)
     {
         message = $"[L]{DateTime.Now:HH:mm:ss:fff}       {message}";
@@ -44,7 +44,7 @@ public class DebugHelper
     /// <summary>
     /// 打印日志，只在ENABLE_LOG宏下作用，一般用于开发时使用
     /// </summary>
-    [Conditional("ENABLE_LOG")]
+    //[Conditional("ENABLE_LOG")]
     public static void Log(string format, params object[] aArgs)
     {
         Log(string.Format(format, aArgs));
@@ -53,7 +53,7 @@ public class DebugHelper
     /// <summary>
     /// 打印警告，只在ENABLE_LOG宏下作用，一般用于开发时使用
     /// </summary>
-    [Conditional("ENABLE_LOG")]
+    //[Conditional("ENABLE_LOG")]
     public static void LogWarning(string message)
     {
         message = $"[W]{DateTime.Now:HH:mm:ss:fff}       {message}";
@@ -71,7 +71,7 @@ public class DebugHelper
     /// <summary>
     /// 打印警告，只在ENABLE_LOG宏下作用，一般用于开发时使用
     /// </summary>
-    [Conditional("ENABLE_LOG")]
+    //[Conditional("ENABLE_LOG")]
     public static void LogWarning(string format, params object[] aArgs)
     {
         LogWarning(string.Format(format, aArgs));
@@ -169,3 +169,4 @@ public class DebugHelper
     }
 
 }
+
