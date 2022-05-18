@@ -1,0 +1,80 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c9dd92d62a4b0b40acd281747cfdc5e, type: 3}
+  m_Name: Build Rules
+  m_EditorClassIdentifier: 
+  searchPatternDir: '*'
+  searchPatternFile: '*.*'
+  version: 0
+  nameByHash: 0
+  buildBundleOptions: 280
+  scenesInBuild:
+  - {fileID: 102900000, guid: 496dfc926085c714581a62e0a53974b6, type: 3}
+  rules:
+  - searchPath: Assets/ABundles/UI/Updater
+    searchPattern: '*'
+    groupBy: 3
+    assetBundleName: 
+    MaxBundleSize: 0
+    Assets:
+    - Assets/ABundles/UI/Updater/box_bg.png
+    - Assets/ABundles/UI/Updater/box_bg_1.png
+    - Assets/ABundles/UI/Updater/box_bg_2.png
+    - Assets/ABundles/UI/Updater/box_bt_cancle.png
+    - Assets/ABundles/UI/Updater/btn_selected.png
+    - Assets/ABundles/UI/Updater/UI_MessageBox.prefab
+    - Assets/ABundles/UI/Updater/updater_bg.png
+    - Assets/ABundles/UI/Updater/updater_bg_mask.png
+    - Assets/ABundles/UI/Updater/updater_slider_bg.png
+    - Assets/ABundles/UI/Updater/updater_slider_bg_fill.png
+    - Assets/ABundles/UI/Updater/updater_slider_head.png
+    bundleList: []
+  - searchPath: Assets/ABundles/IFixPatches
+    searchPattern: '*'
+    groupBy: 3
+    assetBundleName: 
+    MaxBundleSize: 0
+    Assets:
+    - Assets/ABundles/IFixPatches/Assembly-CSharp.patch.bytes
+    bundleList: []
+  - searchPath: Assets/ABundles/UI
+    searchPattern: '*'
+    groupBy: 3
+    assetBundleName: 
+    MaxBundleSize: 0
+    Assets:
+    - Assets/ABundles/UI/Updater/box_bg.png
+    - Assets/ABundles/UI/Updater/box_bg_1.png
+    - Assets/ABundles/UI/Updater/box_bg_2.png
+    - Assets/ABundles/UI/Updater/box_bt_cancle.png
+    - Assets/ABundles/UI/Updater/btn_selected.png
+    - Assets/ABundles/UI/Updater/UI_MessageBox.prefab
+    - Assets/ABundles/UI/Updater/updater_bg.png
+    - Assets/ABundles/UI/Updater/updater_bg_mask.png
+    - Assets/ABundles/UI/Updater/updater_slider_bg.png
+    - Assets/ABundles/UI/Updater/updater_slider_bg_fill.png
+    - Assets/ABundles/UI/Updater/updater_slider_head.png
+    bundleList: []
+  - searchPath: Assets/Scenes/DemoScene.unity
+    searchPattern: '*.*'
+    groupBy: 2
+    assetBundleName: 
+    MaxBundleSize: 0
+    Assets: []
+    bundleList: []
+  - searchPath: Assets/Scenes/SampleScene.unity
+    searchPattern: '*.*'
+    groupBy: 2
+    assetBundleName: 
+    MaxBundleSize: 0
+    Assets: []
+    bundleList: []
